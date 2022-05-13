@@ -1,0 +1,14 @@
+Q2 inheritance
+	https://www.javatpoint.com/inheritance-in-java
+	
+6.What is function overloading? Explain with an example program.
+	https://www.javatpoint.com/method-overloading-in-java
+
+8 WhataretheadvantagesofinheritanceinJava?
+	https://www.thejavaprogrammer.com/advantages-and-disadvantages-of-inheritance-in-java/
+
+9 What is the difference between a field variable and a local variable? 
+	https://www.careerride.com/Java-QA-field-variable-vs-local-variable.aspx#:~:text=Field%20variables%3A%20Variable%20that%20are,a%20specific%20block%20of%20statements.
+
+10.Writethesyntaxforcreatingthesubclassofaclass?
+	https://www.w3schools.com/java/java_inheritance.asp
