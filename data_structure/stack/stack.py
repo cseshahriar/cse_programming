@@ -9,7 +9,7 @@ class Stack:
         return len(self.stack) == 0
 
     def stack_push(self, item):
-        self.stack.append(item)
+        self.stack.append(item)  # last in i.e 4
 
     def stack_pop(self):
         if(self.stack_check_empty()):
@@ -19,7 +19,7 @@ class Stack:
 
     def stack_top(self):
         if not self.stack_check_empty():
-            return self.stack[0]
+            return self.stack[0]  # fist out of i.e 4
 
     def stack_size(self):
         return len(self.stack)
@@ -42,4 +42,4 @@ print('peek ', stack.stack_top())
 print('stack', stack.stack)
 
 stack.stack_pop()
-print('stact', stack)
+print('stack', stack)
