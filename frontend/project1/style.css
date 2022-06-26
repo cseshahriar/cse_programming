@@ -115,6 +115,7 @@
 .footer--ttitle,.footer-title h3 {
     color: #fff;
     font-size: 22px;
+    margin-bottom: 30px;
 }
 .footer-info-list {}
 .footer-info-list li{
@@ -136,3 +137,10 @@
     float: right;
     font-size: 14px;
 }
+
+
+.footer-post-inner img{
+    border-radius: 5px;
+    height:100px;
+}
+
