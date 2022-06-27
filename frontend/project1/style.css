@@ -75,7 +75,34 @@
 }
 .owl-next{}
 
-/* footer */
+
+/*========================== why-us ===========================================*/
+.why-us {
+    padding:80px 0px;
+    background-color:#1b1d21;
+}
+.why-left h4{
+    color:#ffffff;
+    font-size: 14px;
+}
+.why-left h2{
+    color: #ffffff;
+}
+.why-bottom-single i {
+    font-size: 48px;
+}
+.why-bottom {
+    margin-top: 50px;
+}
+.why-bottom .row {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 50px;
+}
+.border-right {
+    border-right: 1px solid rgba(255,255,255,0.1);
+    padding-right: 15px;
+}
+/* ============================== footer ================================= */
 .footer-top {
     position: relative;
     display: block;
