@@ -117,7 +117,7 @@
           </div>
 
           <div class="col">
-              <div class="owl-carousel">
+              <div class="owl-carousel popular-property">
                   <div> Your Content 1 </div>
                   <div> Your Content 2</div>
                   <div> Your Content 3</div>
@@ -282,6 +282,46 @@
     </section>
     <!-- /popular place -->
 
+
+    <!-- agents -->
+    <section class="Agents">
+      <div class="container-fluid py-5">
+        <div class="row no-gutters">
+          <div class="col-12">
+            <h4>OUR AGENTS</h4>
+            <h2>Meet Our Excellent Agents</h2>
+          </div>
+
+          <div class="col">
+            <div class="container mt-5">
+          
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- / agents -->
+    <section class="buy-sell">
+      <div class="pattern-layer" style="background-image: url(shape-2.png);">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 d-flex justify-content-center mt-5">
+              <h2 class="text-white">
+                Looking to Buy a New Property or <br>
+                Sell an Existing One?</h2>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center mt-5">
+              <button type="button" class="btn btn-primary mr-2">Rent Property</button>
+              <button type="button" class="btn btn-secondary">Buy Property</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <!-- footer -->
     <footer class="footer">
         
@@ -428,7 +468,7 @@
         });
 
         // owl
-        $(".owl-carousel").owlCarousel({
+        $(".popular-property").owlCarousel({
           loop: true,
           margin: 10,
           responsiveClass: true,
@@ -448,6 +488,26 @@
               margin: 20,
             },
           },
+        });
+
+        // owl
+        $('.agent-slider').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3,
+                    autoWidth:true,
+                },
+                1000:{
+                    autoWidth:true,
+                    items:5
+                }
+            }
         });
 
         $('.grid').masonry({
