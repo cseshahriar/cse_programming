@@ -12,11 +12,12 @@ if __name__ == '__main__':
     linked_list  = Linkedlist()  # linklist
 
     # assign item values
-    linked_list.head = Node(1)  # first node assign in link list head
-    second = Node(2)  # node
-    third = Node(3)  # node
+    first   = Node(1)  # first node
+    second = Node(2)  # second node
+    third = Node(3)  # third node
 
     # connect nodes
+    linked_list.head = first
     linked_list.head.next = second # first node next = second node
     second.next = third  # second node next = third node
 
